@@ -4,6 +4,7 @@ lua54 'yes'
 title "LB Phone - Multijob"
 description "Multijob Selector"
 author "Solao Bajiuik"
+version "1.0.0"
 
 shared_scripts {
     "@ox_lib/init.lua",
