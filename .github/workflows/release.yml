@@ -41,6 +41,7 @@ jobs:
 
     - name: Create Releasable
       run: |
+       ls -alr
        rm -rf ui/public
        rm -rf ui/src
        rm -rf ui/package.json
