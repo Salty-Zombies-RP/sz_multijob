@@ -22,27 +22,25 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
-      with:
-        path: 'sz_multijob'
 
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-        cache-dependency-path: sz_multijob/ui/package-lock.json
+        cache-dependency-path: ui/package-lock.json
     - run: npm install
     - run: npm run build
 
     - name: Create Releasable
       run: |
-       rm -rf sz_multijob/ui/public
-       rm -rf sz_multijob/ui/src
-       rm -rf sz_multijob/ui/package.json
-       rm -rf sz_multijob/ui/package-lock.json
-       rm -rf sz_multijob/ui/tsconfig.json
-       rm -rf sz_multijob/ui/vite.config
-       zip -r sz_multijob-${VERSION}.zip sz_multijob/
+       rm -rf ui/public
+       rm -rf ui/src
+       rm -rf ui/package.json
+       rm -rf ui/package-lock.json
+       rm -rf ui/tsconfig.json
+       rm -rf ui/vite.config
+       zip -r sz_multijob-${VERSION}.zip ../sz_multijob/
 
     - name: Upload artifact
       uses: actions/upload-artifact@v4
