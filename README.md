@@ -97,7 +97,7 @@ This resource includes a front-end React app built with Vite. To make changes or
 
 ## Credits
 
-This resource is based on the work by **Solareon** with [slrn_multijob](https://github.com/solareon/slrn_multijob). Their foundational code and ideas have been adapted, expanded, and polished into this finalized application.
+This resource is based on the work by **[Solareon](https://github.com/solareon)** with [slrn_multijob](https://github.com/solareon/slrn_multijob). Their foundational code and ideas have been adapted, expanded, and polished into this finalized application.
 
 ---
 
