@@ -1,0 +1,84 @@
+.job-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    background-color: var(--background-container); /* Consistent container color */
+    color: var(--text-primary); /* Main text color */
+    border: 1px solid var(--background-highlight); /* Slight border for contrast */
+    border-radius: 8px;
+    padding: 1.5rem; /* Add some inner padding for spacing */
+    margin: 1rem 0; /* Space between cards */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    width: 100%;
+}
+
+.job-card:hover {
+    transform: translateY(-4px); /* Slight lift on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* More prominent shadow on hover */
+}
+
+.job-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem; /* Space below the title */
+    color: var(--text-primary);
+}
+
+.job-details {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 1rem; /* Space below the details */
+    color: var(--text-secondary);
+}
+
+.job-details span {
+    font-weight: 500;
+    color: var(--text-primary); /* Emphasize certain parts (e.g., Grade & Salary) */
+}
+
+.job-actions {
+    display: flex;
+    flex-direction: column; /* Stack the buttons vertically */
+    width: 100%; /* Stretch buttons across the full width */
+    gap: 0.5rem; /* Add spacing between buttons */
+}
+
+.job-status,
+.job-status-duty,
+.job-remove {
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.75rem;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    user-select: none;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.job-status,
+.job-status-duty{
+    background-color: #4caf50; /* Green background for select button */
+    color: #ffffff; /* White text for the button */
+}
+
+.job-status:hover,
+.job-status-duty:hover{
+    background-color: #45a049; /* Slightly darker green on hover */
+    transform: scale(1.02); /* Subtle scaling effect on hover */
+}
+
+.job-remove {
+    background-color: #f44336; /* Red background for remove button */
+    color: #ffffff; /* Contrast text */
+}
+
+.job-remove:hover {
+    background-color: #d32f2f; /* Slightly darker red on hover */
+    transform: scale(1.02); /* Subtle scaling effect on hover */
+}
