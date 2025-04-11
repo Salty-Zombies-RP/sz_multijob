@@ -49,7 +49,9 @@ jobs:
        rm -rf ui/tsconfig.json
        rm -rf ui/node_modules
        rm -rf ui/vite.config
-       zip -r sz_multijob-${VERSION}.zip ../sz_multijob/
+       rm -rf .git
+       cd ..
+       zip -r sz_multijob/sz_multijob-${VERSION}.zip sz_multijob/ -x "sz_multijob/sz_multijob-*.zip"
 
     - name: Upload artifact
       uses: actions/upload-artifact@v4
