@@ -33,6 +33,10 @@ jobs:
         cache: 'npm'
         cache-dependency-path: ui/package-lock.json
 
+    - name: Update Manifest Version
+      run: |
+         sed -i "s|version \"[^\"]*\"|version \"${VERSION}\"|" fxmanifest.lua
+
     - name: Build Client UI
       run: |
         cd ui
