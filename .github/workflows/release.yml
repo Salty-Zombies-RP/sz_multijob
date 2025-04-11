@@ -48,7 +48,8 @@ jobs:
        rm -rf ui/package-lock.json
        rm -rf ui/tsconfig.json
        rm -rf ui/node_modules
-       rm -rf ui/vite.config
+       rm -rf ui/vite.config.ts
+       rm -rf .github
        rm -rf .git
        cd ..
        zip -r sz_multijob/sz_multijob-${VERSION}.zip sz_multijob/ -x "sz_multijob/sz_multijob-*.zip"
