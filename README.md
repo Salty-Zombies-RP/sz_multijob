@@ -1,4 +1,4 @@
-_# Job Swapping App for LB Phone
+# Job Swapping App for LB Phone
 
 This is a Qbox FiveM server application designed to integrate seamlessly with the `lb-phone` resource. It provides an Employment app on your phone, enabling players to swap jobs directly from their in-game device.
 
