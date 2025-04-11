@@ -20,22 +20,28 @@ Before installing, ensure you have the following prerequisites:
 2. The **`lb-phone` resource** already installed and configured on the server.
 3. **Node.js** installed on your development system (if you plan to make changes to the UI).
 
+### Downloads:
+- You can clone this repository:
+  ```bash
+  git clone https://github.com/Salty-Zombies-RP/sz_multijob.git
+  ```
+- You can download just the release from [Latest Release](https://github.com/Salty-Zombies-RP/sz_multijob/releases/latest)
+
 ### Steps:
 1. Clone or download this resource and place it in your server's resource directory:
-
    ```bash
    /resources/[phone-apps]/sz_multijob
    ```
 
-2. Add the resource to your server's `server.cfg`:
+3. Add the resource to your server's `server.cfg`:
 
    ```cfg
    ensure sz_multijob
    ```
 
-3. Ensure your `lb-phone` resource is up-to-date and properly functioning.
+4. Ensure your `lb-phone` resource is up-to-date and properly functioning.
 
-4. Start the server and test the functionality by accessing the Employment app on the in-game phone.
+5. Start the server and test the functionality by accessing the Employment app on the in-game phone.
 
 ---
 
