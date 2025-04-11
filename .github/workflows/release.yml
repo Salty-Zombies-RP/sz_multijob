@@ -9,6 +9,9 @@ on:
     
 permissions:
   contents: write
+
+env:
+  VERSION: ${{ github.ref_name }}
   
 jobs:
   build:
