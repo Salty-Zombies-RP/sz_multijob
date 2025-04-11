@@ -1,7 +1,13 @@
 # Job Swapping App for LB Phone
 [![Building & Releasing](https://github.com/Salty-Zombies-RP/sz_multijob/actions/workflows/release.yml/badge.svg)](https://github.com/Salty-Zombies-RP/sz_multijob/actions/workflows/release.yml) ![GitHub Release](https://img.shields.io/github/v/release/Salty-Zombies-RP/sz_multijob)
 
+## Youtube Preview
 
+---
+
+[![Youtube Preview](https://img.youtube.com/vi/LBy_ZgY4gHI/0.jpg)](https://www.youtube.com/watch?v=LBy_ZgY4gHI)
+
+---
 
 This is a Qbox FiveM server application designed to integrate seamlessly with the `lb-phone` resource. It provides an Employment app on your phone, enabling players to swap jobs directly from their in-game device.
 
