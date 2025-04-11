@@ -12,6 +12,12 @@ This is a Qbox FiveM server application designed to integrate seamlessly with th
 - **Interactive and User-Friendly**: Offers a simple and effective interface for job changes.
 - **Qbox Compatibility**: Fully optimized for use on Qbox-based FiveM servers.
 
+## Todo
+
+- **Framework Compatibility**: We want to make it compatible for all frameworks.
+- **Design Optimizations**: I want to alter the colours abit and make it cleaner / more consistent.
+- **Tablet Support**: I want to also export it to `lb-tablet` for those using that as well.
+  
 ---
 
 ## Installation
