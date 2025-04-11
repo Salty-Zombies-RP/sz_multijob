@@ -1,4 +1,6 @@
 # Job Swapping App for LB Phone
+[![Building & Releasing](https://github.com/Salty-Zombies-RP/sz_multijob/actions/workflows/release.yml/badge.svg)](https://github.com/Salty-Zombies-RP/sz_multijob/actions/workflows/release.yml) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/Salty-Zombies-RP/sz_multijob/releases/latest)
+
 
 This is a Qbox FiveM server application designed to integrate seamlessly with the `lb-phone` resource. It provides an Employment app on your phone, enabling players to swap jobs directly from their in-game device.
 
@@ -21,7 +23,7 @@ Before installing, ensure you have the following prerequisites:
 3. **Node.js** installed on your development system (if you plan to make changes to the UI).
 
 ### Downloads:
-- You can clone this repository:
+- You can clone this repository (Warning: if you opt this path, you will need to build the UI yourself.)
   
   ```bash
   git clone https://github.com/Salty-Zombies-RP/sz_multijob.git
